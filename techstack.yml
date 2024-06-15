@@ -1,0 +1,778 @@
+repo_name: DrivenIdeaLab/hook0
+report_id: 6215b1ee5a01e0bb8c08faa2ec9975c6
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-15T17:54:01+00:00'
+requested_by: dsferruzza
+provider: github
+branch: master
+detected_tools_count: 58
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0
+  detection_source: Repo Metadata
+- name: Rust
+  description: A safe, concurrent, practical language
+  website_url: http://www.rust-lang.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1070/v7txhrjp9pdqrkdtxxp0.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/api/migrations/20210720134539_init.down.sql
+  detection_source: api/migrations/20210720134539_init.down.sql
+  last_updated_by: David Sferruzza
+  last_updated_on: 2021-07-21 09:18:30.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0
+  detection_source: Repo Metadata
+- name: Apache FreeMarker
+  description: A free Java-based template engine
+  website_url: http://freemarker.incubator.apache.org/index.html
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/4456/ymCgaIO0_400x400.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: David Sferruzza
+  last_updated_on: 2021-12-08 19:08:28.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: François-Guillaume Ribreau
+  last_updated_on: 2020-12-11 16:13:45.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: François-Guillaume Ribreau
+  last_updated_on: 2020-12-11 16:13:45.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: David Sferruzza
+  last_updated_on: 2022-10-25 14:39:18.000000000 Z
+- name: Vue.js
+  description: A progressive framework for building user interfaces
+  website_url: http://vuejs.org/
+  version: 3.4.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3837/paeckCWC.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: François-Guillaume Ribreau
+  last_updated_on: 2020-12-11 16:13:45.000000000 Z
+- name: Compose
+  description: 'We host databases for busy devs: production-ready, cloud-hosted, open
+    source.'
+  website_url: https://www.compose.io/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: MongoDB Hosting
+  image_url: https://img.stackshare.io/service/201/reB72Lh4.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/self-hosted/docker/docker-compose.yaml
+  detection_source: self-hosted/docker/docker-compose.yaml
+  last_updated_by: David Sferruzza
+  last_updated_on: 2023-08-22 18:48:00.000000000 Z
+- name: DB
+  description: 'Version control for databases: save, restore, and archive snapshots
+    of your database from the command line'
+  website_url: https://github.com/infostreams/db
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/11593/no-img.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/self-hosted/docker/docker-compose.yaml
+  detection_source: self-hosted/docker/docker-compose.yaml
+  last_updated_by: Louis PERDEREAU
+  last_updated_on: 2022-11-02 14:29:40.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/self-hosted/docker/docker-compose.yaml
+  detection_source: self-hosted/docker/docker-compose.yaml
+  last_updated_by: David Sferruzza
+  last_updated_on: 2023-12-03 10:17:56.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.24.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/frontend/package-lock.json
+  detection_source: frontend/babel.config.js
+  last_updated_by: François-Guillaume Ribreau
+  last_updated_on: 2021-04-16 08:08:40.000000000 Z
+- name: CodeMirror
+  description: A versatile text editor implemented in JavaScript for the browser
+  website_url: http://codemirror.net/
+  version: 6.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/2490/E_fCaAi6.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: François-Guillaume Ribreau
+  last_updated_on: 2022-10-27 15:00:29.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0
+  detection_source: Repo Metadata
+- name: Docker Compose
+  description: Define and run multi-container applications with Docker
+  website_url: https://github.com/docker/compose
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/3136/docker-compose.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/self-hosted/docker/docker-compose.yaml
+  detection_source: self-hosted/docker/docker-compose.yaml
+  last_updated_by: David Sferruzza
+  last_updated_on: 2023-08-22 18:48:00.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: François-Guillaume Ribreau
+  last_updated_on: 2020-12-11 16:13:45.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0
+  detection_source: Repo Metadata
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 29.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: François-Guillaume Ribreau
+  last_updated_on: 2020-12-11 16:13:45.000000000 Z
+- name: NGINX
+  description: A high performance free open source web server powering busiest sites
+    on the Internet.
+  website_url: http://nginx.org
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/self-hosted/docker/frontend/nginx.conf
+  detection_source: self-hosted/docker/frontend/nginx.conf
+  last_updated_by: Louis PERDEREAU
+  last_updated_on: 2022-11-02 14:29:40.000000000 Z
+- name: Parcel
+  description: "\U0001F4E6\U0001F680  A fast, zero configuration web application bundler"
+  website_url: https://parceljs.org/
+  version: 2.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/8054/fC6Wad-S_400x400.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/keycloak-theme/package-lock.json
+  detection_source: keycloak-theme/package.json
+  last_updated_by: François-Guillaume Ribreau
+  last_updated_on: 2023-03-27 07:42:38.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.8.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: David Sferruzza
+  last_updated_on: 2023-07-19 09:39:15.000000000 Z
+- name: Vite
+  description: Native-ESM powered web dev build tool
+  website_url: https://vitejs.dev/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: François-Guillaume Ribreau
+  last_updated_on: 2020-12-11 16:13:45.000000000 Z
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/website/package-lock.json
+  detection_source: website/package.json
+  last_updated_by: François-Guillaume Ribreau
+  last_updated_on: 2023-08-25 08:05:27.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/website/package.json
+  detection_source: website/package.json
+  last_updated_by: fgribreau
+  last_updated_on: 2021-12-02 14:48:22.000000000 Z
+- name: Netlify
+  description: Build, deploy and host your static site or app with a drag and drop
+    interface and automatic delpoys from GitHub or Bitbucket
+  website_url: https://www.netlify.com/
+  open_source: false
+  hosted_saas: true
+  category: Application Utilities
+  sub_category: Static Web Hosting
+  image_url: https://img.stackshare.io/service/2748/default_5dfbb146cf22182bca88c7d07f2515a5888fc12a.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/netlify.toml
+  detection_source: netlify.toml
+  last_updated_by: fgribreau
+  last_updated_on: 2021-12-02 14:48:22.000000000 Z
+- name: cURL
+  description: Command Line Tool and Library for Transferring Data With URLs
+  website_url: http://curl.haxx.se/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: File Transfer
+  image_url: https://img.stackshare.io/service/6552/curl-logo.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/self-hosted/docker/docker-compose.yaml
+  detection_source: self-hosted/docker/docker-compose.yaml
+  last_updated_by: Louis PERDEREAU
+  last_updated_on: 2022-11-02 14:29:40.000000000 Z
+- name: Alt
+  description: A library for managing data within JavaScript applications
+  website_url: https://alt.js.org/
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3649/default_01276c9c0c79674b16f9b29216bd8cc7ce9b894d.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/self-hosted/docker/docker-compose.yaml
+  detection_source: self-hosted/docker/docker-compose.yaml
+  last_updated_by: Louis PERDEREAU
+  last_updated_on: 2022-11-02 14:29:40.000000000 Z
+- name: Keycloak
+  description: An open source identity and access management solution
+  website_url: https://www.keycloak.org/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://img.stackshare.io/service/5439/oAC05cEB_400x400.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/self-hosted/docker/docker-compose.yaml
+  detection_source: self-hosted/docker/docker-compose.yaml
+  last_updated_by: David Sferruzza
+  last_updated_on: 2023-12-03 10:17:56.000000000 Z
+- name: Ramda
+  description: A practical functional library for JavaScript programmers
+  website_url: https://ramdajs.com/
+  version: 0.29.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3076/Ramda-01.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: David Sferruzza
+  last_updated_on: 2023-05-18 08:57:45.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0
+  detection_source: Repo Metadata
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.6.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: David Sferruzza
+  last_updated_on: 2023-02-04 15:42:47.000000000 Z
+- name: date-fns
+  description: Modern JavaScript date utility library
+  website_url: https://date-fns.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10865/default_5551fb8853689f607a2bc0d5a09355d5a3d52bf0.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: David Sferruzza
+  last_updated_on: 2023-12-30 15:29:26.000000000 Z
+- name: sharp
+  description: High performance Node.js image processing
+  package_url: https://www.npmjs.com/sharp
+  version: 0.31.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16806/default_31a4e0e11d348225088320f3a5c5ea6fa49c27ad.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/website/package-lock.json
+  detection_source: website/package.json
+  last_updated_by: David Sferruzza
+  last_updated_on: 2023-03-30 07:52:33.000000000 Z
+  vulnerabilities:
+  - name: sharp vulnerability in libwebp dependency CVE-2023-4863
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-54xq-cgqr-rpm3
+    detected_date: Nov 17
+    severity: high
+    first_patched: 0.32.6
+- name: "@fortawesome/fontawesome-svg-core"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/fontawesome-svg-core
+  version: 6.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16644/default_50c9ed1615a25628505ab53def64d82450ced26b.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: David Sferruzza
+  last_updated_on: 2023-12-11 20:25:56.000000000 Z
+- name: "@fortawesome/free-solid-svg-icons"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/free-solid-svg-icons
+  version: 6.5.2
+  license: CC-BY-4.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16683/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: François-Guillaume Ribreau
+  last_updated_on: 2023-08-18 09:46:20.000000000 Z
+- name: "@fortawesome/vue-fontawesome"
+  description: Official Vue component for Font Awesome 5
+  package_url: https://www.npmjs.com/@fortawesome/vue-fontawesome
+  version: 3.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18329/default_fcb0000f89932f65c58527fdec74a1b27eb78a83.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: David Sferruzza
+  last_updated_on: 2023-12-11 20:25:56.000000000 Z
+- name: "@tailwindcss/typography"
+  description: A Tailwind CSS plugin for automatically styling plain HTML content
+    with beautiful typographic defaults
+  package_url: https://www.npmjs.com/@tailwindcss/typography
+  version: 0.5.12
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/website/package-lock.json
+  detection_source: website/package.json
+  last_updated_by: David Sferruzza
+  last_updated_on: 2021-12-11 15:11:08.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 29.5.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: David Sferruzza
+  last_updated_on: 2024-03-22 09:44:07.000000000 Z
+- name: "@types/ramda"
+  description: TypeScript definitions for ramda
+  package_url: https://www.npmjs.com/@types/ramda
+  version: 0.29.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16750/default_848dc5bc612658cea8d631cff0259d9588c28fea.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: David Sferruzza
+  last_updated_on: 2024-03-22 09:44:07.000000000 Z
+- name: "@vue/eslint-config-typescript"
+  description: Eslint-config-typescript for vue-cli
+  package_url: https://www.npmjs.com/@vue/eslint-config-typescript
+  version: 13.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18076/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: David Sferruzza
+  last_updated_on: 2024-03-22 09:44:07.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 8.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: David Sferruzza
+  last_updated_on: 2024-03-22 09:44:07.000000000 Z
+- name: eslint-config-standard
+  description: JavaScript Standard Style - ESLint Shareable Config
+  package_url: https://www.npmjs.com/eslint-config-standard
+  version: 17.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15872/default_e4668902f8489350db9b0fb228523a571ef05b26.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/keycloak-theme/package-lock.json
+  detection_source: keycloak-theme/package.json
+  last_updated_by: David Sferruzza
+  last_updated_on: 2023-07-14 12:35:16.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.29.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/keycloak-theme/package-lock.json
+  detection_source: keycloak-theme/package.json
+  last_updated_by: David Sferruzza
+  last_updated_on: 2023-07-14 12:35:16.000000000 Z
+- name: eslint-plugin-node
+  description: Additional ESLint's rules for Node.js
+  package_url: https://www.npmjs.com/eslint-plugin-node
+  version: 11.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15874/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/keycloak-theme/package-lock.json
+  detection_source: keycloak-theme/package.json
+  last_updated_by: François-Guillaume Ribreau
+  last_updated_on: 2024-03-08 10:59:52.000000000 Z
+- name: eslint-plugin-promise
+  description: Enforce best practices for JavaScript promises
+  package_url: https://www.npmjs.com/eslint-plugin-promise
+  version: 6.1.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15885/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/keycloak-theme/package-lock.json
+  detection_source: keycloak-theme/package.json
+  last_updated_by: David Sferruzza
+  last_updated_on: 2023-07-14 12:35:16.000000000 Z
+- name: eslint-plugin-standard
+  description: ESlint Plugin for the Standard Linter
+  package_url: https://www.npmjs.com/eslint-plugin-standard
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15884/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/keycloak-theme/package-lock.json
+  detection_source: keycloak-theme/package.json
+  last_updated_by: David Sferruzza
+  last_updated_on: 2023-07-14 12:35:16.000000000 Z
+- name: eslint-plugin-vue
+  description: Official ESLint plugin for Vue.js
+  package_url: https://www.npmjs.com/eslint-plugin-vue
+  version: 9.25.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15950/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: David Sferruzza
+  last_updated_on: 2024-03-22 09:44:07.000000000 Z
+- name: fp-ts
+  description: Functional programming in TypeScript
+  package_url: https://www.npmjs.com/fp-ts
+  version: 2.16.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17989/default_72dbba22ca96f25f78f55f8ea5393222efca5494.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: François-Guillaume Ribreau
+  last_updated_on: 2022-04-16 09:27:41.000000000 Z
+- name: lodash.debounce
+  description: The lodash method `_.debounce` exported as a module
+  package_url: https://www.npmjs.com/lodash.debounce
+  version: 4.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16481/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: François-Guillaume Ribreau
+  last_updated_on: 2022-05-19 08:58:21.000000000 Z
+- name: postcss-import
+  description: PostCSS plugin to import CSS files
+  package_url: https://www.npmjs.com/postcss-import
+  version: 15.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16086/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/frontend/package-lock.json
+  detection_source: website/package.json
+  last_updated_by: David Sferruzza
+  last_updated_on: 2024-01-17 10:36:03.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 3.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: David Sferruzza
+  last_updated_on: 2022-10-25 14:39:18.000000000 Z
+- name: ts-jest
+  description: A preprocessor with source maps support to help use TypeScript with
+    Jest
+  package_url: https://www.npmjs.com/ts-jest
+  version: 29.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: David Sferruzza
+  last_updated_on: 2023-07-19 09:39:15.000000000 Z
+- name: vite
+  description: Native-ESM powered web dev build tool
+  package_url: https://www.npmjs.com/vite
+  version: 5.2.8
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: David Sferruzza
+  last_updated_on: 2023-12-30 15:29:26.000000000 Z
+- name: vue
+  description: Vue
+  package_url: https://www.npmjs.com/vue
+  version: 3.4.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: François-Guillaume Ribreau
+  last_updated_on: 2020-12-11 16:13:45.000000000 Z
+- name: vue-router
+  description: Official router for Vue.js 2
+  package_url: https://www.npmjs.com/vue-router
+  version: 4.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15969/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/DrivenIdeaLab/hook0/blob/master/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: David Sferruzza
+  last_updated_on: 2023-12-11 20:25:56.000000000 Z
